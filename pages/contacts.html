@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Контакты - Моя первая веб-страница</title>
+    <style> body { 
+        background: #deb0b0 url(../images/sean-oulashin-KMn4VEeEPR8-unsplash.jpg);
+        color:#000080;} 
+    </style>
+</head>
+<body>
+   
+    <header>
+        <nav>
+            <p align = "center">
+                <a href="index.html">Главная</a>
+                <a href="about.html">О нас</a>
+                <a href="#">Контакты</a>
+            </p>
+        </nav>
+    </header>
+    <main>
+        <!--контейнер для изменения характеристик шрифта -->
+        <p align = "center"><font size="10" color="white" face="Arial">Случайных встреч на свете не бывает...</font></p> 
+        <p align = "center"><font size="8" color="white" face="Arial"><b>ДРУГ ДРУГУ ДЛЯ ЧЕГО ТО МЫ НУЖНЫ...</b></font></p>
+       
+        <form name="test" method="post" action="input1.php"> <!--форма ввода данных-->
+            <p><font size="5"><b>Напишите нам</b></font></p>
+            <p>Ваш e-mail:<br>
+             <input type="email" size="40">
+            </p>
+            <p><b>Что вам необходимо:</b><br>
+             <input type="checkbox" name="answer" value="site creation">Создание сайта<br>
+             <input type="checkbox" name="answer" value="site support">Поддержка существующего сайта<br>
+             <input type="checkbox" name="answer" value="mobile app">Разработка мобильного приложения<br>
+            </p>
+            <p>Комментарий:<br>
+             <textarea name="comment" cols="40" rows="3"></textarea></p>
+            <p><input type="submit" value="Отправить">
+             <input type="reset" value="Очистить"></p>
+           </form>
+        
+        <h1 style="text-align: right">Как нас найти</h1>
+            <address style="text-align: right"><font size="5" color="blue" face="Arial">
+                190000, Санктербург,<br>
+                Невский проспект, д.1<br>
+                555-55-55<br></font>
+            </address>         
+    </main>
+    <footer >    
+           <p style="text-align: right"><span>&copy;&nbsp;Skillfactory</span></p>
+    </footer>
+</body>
+</html>
